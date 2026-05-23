@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy this file, fill in your business details, and run: python main.py --sop your_sop.json",
+  "business_name": "Your Business Name",
+  "hours": "Monday to Friday, 9am to 6pm",
+  "last_appointment_slot": "5:45pm",
+  "closed_days": ["Saturday", "Sunday"],
+  "services": {
+    "service_1": "Description and price",
+    "service_2": "Description and price",
+    "consultation": "free / £XX"
+  },
+  "booking": "Via phone or website. 24-hour cancellation policy applies.",
+  "website": "yourbusiness.co.uk",
+  "escalate_conditions": [
+    "customer complaint or negative feedback",
+    "medical or safety questions",
+    "pricing negotiation or discount request",
+    "more than 2 questions the AI cannot answer from this SOP",
+    "customer explicitly requests a human agent",
+    "customer appears angry, frustrated, or distressed"
+  ]
+}

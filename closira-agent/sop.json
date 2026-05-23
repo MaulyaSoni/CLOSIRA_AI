@@ -1,0 +1,21 @@
+{
+  "business_name": "Bloom Aesthetics Clinic",
+  "hours": "Monday to Saturday, 9am to 7pm",
+  "last_appointment_slot": "6:45pm",
+  "closed_days": ["Sunday"],
+  "services": {
+    "botox": "from £200",
+    "fillers": "from £250",
+    "consultation": "free"
+  },
+  "booking": "Via WhatsApp or website. 24-hour cancellation policy applies.",
+  "website": "bloomaesthetics.co.uk",
+  "escalate_conditions": [
+    "customer complaint or negative feedback about a treatment",
+    "medical questions or health concerns",
+    "pricing negotiation or discount request",
+    "more than 2 questions the AI cannot answer from the SOP",
+    "customer explicitly requests to speak to a human agent",
+    "customer appears angry, frustrated, or distressed"
+  ]
+}
